@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profile from "../assets/images/profile.png";
+import cv from "../assets/cv/Mohamed Elsayed Alshamy.pdf";
 
 function Hero() {
   return (
@@ -47,10 +48,17 @@ function Hero() {
 
           <div className="flex items-center gap-6">
 
-            <button className="bg-cyan-500 hover:bg-cyan-400 transition-all duration-300 px-6 py-3 rounded-xl font-semibold text-black shadow-lg shadow-cyan-500/30 hover:scale-105">
-              Download CV
-            </button>
+            {/* View CV */}
+            <a
+              href={cv}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-cyan-500 hover:bg-cyan-400 transition-all duration-300 px-6 py-3 rounded-xl font-semibold text-black shadow-lg shadow-cyan-500/30"
+            >
+              View CV
+            </a>
 
+            {/* GitHub */}
             <a
               href="https://github.com/Mohamed-Alshamy"
               target="_blank"
@@ -60,6 +68,7 @@ function Hero() {
               <FaGithub size={34} />
             </a>
 
+            {/* LinkedIn */}
             <a
               href="https://linkedin.com/in/mohamed-alshamy"
               target="_blank"
