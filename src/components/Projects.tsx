@@ -1,5 +1,5 @@
 import wheelchair from "../assets/projects/Autonomous Wheelchair.jpeg";
-import vehicle from "../assets/projects/Autonomous Wheelchair.jpeg";
+import vehicle from "../assets/projects/Autonomous Vehicle.jpeg";
 import rov from "../assets/projects/ROV IMAGE.jpg";
 import { motion } from "framer-motion";
 
