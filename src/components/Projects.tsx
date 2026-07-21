@@ -1,4 +1,5 @@
 import wheelchair from "../assets/projects/Autonomous Wheelchair.jpeg";
+import vehicle from "../assets/projects/Autonomous Wheelchair.jpeg";
 import rov from "../assets/projects/ROV IMAGE.jpg";
 import { motion } from "framer-motion";
 
@@ -15,7 +16,7 @@ const projects = [
     title: "Autonomous Vehicle",
     description:
       "AI-powered autonomous vehicle developed using ROS 2, integrating the Nav2 navigation stack, ZED2 stereo camera, Ublox GPS, and Map Server to achieve real-time perception, localization, path planning, and autonomous navigation.",
-    image: "https://placehold.co/600x400",
+    image: vehicle,
     tech: ["ROS2", "Jetson", "Nav2 stack", "Map Server", "Ublox GPS", "ZED2 stereo camera", "CUDA"],
     github: "https://github.com/mohamed-alshamy/Autonomous-Vehicle",
   },
