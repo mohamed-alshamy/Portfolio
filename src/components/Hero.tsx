@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../assets/images/profile.png";
+import profile from "../assets/images/profile.jpeg";
 import cv from "../assets/CV/Mohamed Elsayed Alshamy.pdf";
 
 function Hero() {
