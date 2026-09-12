@@ -92,7 +92,7 @@ function Hero() {
           <img
             src={profile}
             alt="Mohamed Alshamy"
-            className="relative z-10 w-[470px] animate-float drop-shadow-[0_0_40px_rgba(34,211,238,0.35)] select-none"
+            className="relative z-10 w-[400px] animate-float drop-shadow-[0_0_40px_rgba(34,211,238,0.35)] select-none"
             draggable="false"
           />
 
